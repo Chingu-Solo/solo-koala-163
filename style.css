@@ -8,7 +8,7 @@
 }
 
 .container {
-  width: 98%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -17,19 +17,26 @@ header {
 }
 
 header::after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
 
-.logos {
-  display: inline-block;
+.wcglogo {
+  width: 15%;
+  height: 15%;
   float: left;
+  margin: 12px 0;
+  padding-right: 9px;
+  border-right: solid rgba(192,192,192,0.4) 2px;
 }
 
 .ibmlogo {
-  width: 5%;
-  height: 5%;
+  width: 3%;
+  height: 3%;
+  float: left;
+  padding-top: 17px;
+  margin-left: 9px;
 }
 
 nav {
@@ -43,13 +50,13 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
+  float: left;
   margin-left: 40px; 
-  padding-top: 0px;
+  padding-top: 20px;
   font-size: 20px;
   font-weight: 700;
 }
 
 nav a {
-  
+  text-decoration: none;
 }
