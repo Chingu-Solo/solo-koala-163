@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400;600;700&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Muli', sans-serif;
 }
 
 .container {
@@ -14,6 +14,7 @@
 
 header {
   background-color: #DFE9E9;
+  height: 55px;
 }
 
 header::after {
@@ -23,20 +24,26 @@ header::after {
 }
 
 .wcglogo {
-  width: 15%;
-  height: 15%;
+  height: 35px;
   float: left;
   margin: 12px 0;
   padding-right: 9px;
-  border-right: solid rgba(192,192,192,0.4) 2px;
+  border-right: solid rgba(192, 192, 192, 0.4) 2px;
+}
+
+.wcglogo2 {
+  height: 35px;
+  float: left;
+  margin: 12px 0;
+  padding-right: 9px;
+  border-right: solid rgba(192, 192, 192, 0.4) 2px;
+  display: none;
 }
 
 .ibmlogo {
-  width: 3%;
-  height: 3%;
+  height: 20px;
   float: left;
-  padding-top: 17px;
-  margin-left: 9px;
+  margin: 20px 0 0 9px;
 }
 
 nav {
@@ -51,12 +58,48 @@ nav ul {
 
 nav li {
   float: left;
-  margin-left: 40px; 
-  padding-top: 20px;
-  font-size: 20px;
-  font-weight: 700;
+  margin: 15px 15px 0 0;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 nav a {
   text-decoration: none;
+  color: white;
 }
+
+.log-in {
+  color: #D54427;
+  border-bottom: solid rgba(213, 68, 39, 0.4) 2px;
+  transition: border-bottom 0.2s;
+}
+
+.log-in:hover {
+  border-bottom: solid rgba(213, 68, 39, 1) 2px;
+}
+
+.join {
+  background-color: #D54427;
+  padding: 4px 9px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.join:hover {
+  background-color: white;
+  color: #D54427
+}
+
+.x-icon {
+  color: black;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 852px) {
+  .wcglogo {
+    display: none;
+  }
+
+  .wcglogo2 {
+    display: block;
+  }
+} 
