@@ -7,14 +7,15 @@
   font-family: 'Muli', sans-serif;
 }
 
-.container {
-  width: 95%;
-  margin: 0 auto;
-}
+/*Start of Navbar*/
 
 header {
   background-color: #DFE9E9;
   height: 55px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  position: fixed;
 }
 
 header::after {
@@ -89,7 +90,7 @@ nav a {
   color: #D54427
 }
 
-.x-icon {
+.exit-icon {
   color: black;
   font-size: 25px;
 }
@@ -103,3 +104,90 @@ nav a {
     display: block;
   }
 } 
+
+/* End of Navbar */
+
+.first-section {
+  background: url(scientists.png) no-repeat scroll center top transparent;
+  height: 100vh;
+  background-size: cover;
+  background-color: #335a8a;
+  background-blend-mode: overlay;
+}
+
+.second-section {
+  background: url(climber.jpg) no-repeat scroll center top transparent;
+  height: 100vh;
+  background-size: cover;
+  background-color: #FDD500;
+  background-blend-mode: overlay;
+}
+
+.third-section {
+  background: url(chemistry.jpeg) no-repeat scroll center top transparent;
+  height: 100vh;
+  background-size: cover;
+  background-color: #2D75CF;
+  background-blend-mode: overlay;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 155px;
+  color: white;
+  text-align: center;
+}
+
+.fa-laptop {
+  font-size: 160px;
+  margin-bottom: 10px;
+}
+
+.first-section p {
+  font-size: 32px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.first-section a {
+  text-decoration: none;
+  color: white;
+}
+
+.join-button {
+  background-color:  #D54427;
+  padding: 3px 7px;
+  font-size: 20px;
+  margin-top: 8px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.join-button:hover {
+  background-color: white;
+  color:  #D54427;
+}
+
+.text-container {
+  color: black;
+
+}
+
+.second-section .top-paragraph {
+  font-size: 16px;
+  margin-top: 95px;
+}
+
+.bottom-paragraph {
+  font-size: 22px;
+}
+
+.divider {
+  background-color: black;
+  padding: 0.8px 230px;
+  margin: 20px 0;
+}
+
