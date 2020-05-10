@@ -128,7 +128,8 @@ nav a {
   height: 100vh;
   background-size: cover;
   background-color: #2D75CF;
-  background-blend-mode: overlay;
+  background-blend-mode: darken;
+  color: white;
 }
 
 .text-container {
@@ -173,7 +174,6 @@ nav a {
 
 .text-container {
   color: black;
-
 }
 
 .second-section .top-paragraph {
@@ -181,7 +181,7 @@ nav a {
   margin-top: 95px;
 }
 
-.bottom-paragraph {
+.second-section .bottom-paragraph {
   font-size: 22px;
 }
 
@@ -189,5 +189,34 @@ nav a {
   background-color: black;
   padding: 0.8px 230px;
   margin: 20px 0;
+}
+
+.challenge {
+  background-color: royalblue;
+  width: 100%;
+  padding: 70px 0 12px 0;
+  text-align: center;
+  font-size: 21px;
+  border-bottom: 1px solid white;
+}
+
+.compass {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.third-section h3 {
+  font-size: 35px;
+  color: white;
+}
+
+.third-section .text-container p {
+  font-size: 20px;
+  color: white;
+  width: 60%;
+}
+
+.third-section .top-paragraph {
+  margin: 17px 0;
 }
 
