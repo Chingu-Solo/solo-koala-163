@@ -95,6 +95,8 @@ nav a {
   font-size: 25px;
 }
 
+/* End of Navbar */
+
 @media only screen and (max-width: 852px) {
   .wcglogo {
     display: none;
@@ -103,9 +105,49 @@ nav a {
   .wcglogo2 {
     display: block;
   }
+
+  .compass {
+    display: none;
+  }
+  
+  .fourth-section .divider {
+    padding: 0.8px 280px !important;
+  }
+
+  .fourth-section .top-paragraph {
+    font-size: 16px !important;
+  }
+
+  .fourth-section .bottom-paragraph {
+    font-size: 19px !important;
+  }
 } 
 
-/* End of Navbar */
+@media only screen and (max-width: 550px) {
+  .fourth-section .divider {
+    padding: 0.8px 200px !important;
+  }
+}
+
+/* start dot list */
+
+.page-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 220px;
+  position: fixed;
+}
+
+.page-list li {
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  margin: 18px 11px;
+}
+
+/* end dot list */
 
 .first-section {
   background: url(scientists.png) no-repeat scroll center top transparent;
@@ -125,11 +167,27 @@ nav a {
 
 .third-section {
   background: url(chemistry.jpeg) no-repeat scroll center top transparent;
-  height: 100vh;
+  height: 93vh;
   background-size: cover;
   background-color: #2D75CF;
   background-blend-mode: darken;
   color: white;
+}
+
+.fourth-section {
+  background: url(solar.jpg) no-repeat scroll center top transparent;
+  height: 100vh;
+  background-size: cover;
+  background-color: #343537;
+  background-blend-mode: overlay;
+}
+
+.fifth-section {
+  background: url(women_microscope.jpg) no-repeat scroll center top transparent;
+  height: 93vh;
+  background-size: cover;
+  background-color: #5FA2EA;
+  background-blend-mode: overlay;
 }
 
 .text-container {
@@ -172,7 +230,7 @@ nav a {
   color:  #D54427;
 }
 
-.text-container {
+.second-section .text-container {
   color: black;
 }
 
@@ -185,7 +243,7 @@ nav a {
   font-size: 22px;
 }
 
-.divider {
+.second-section .divider {
   background-color: black;
   padding: 0.8px 230px;
   margin: 20px 0;
@@ -194,7 +252,7 @@ nav a {
 .challenge {
   background-color: royalblue;
   width: 100%;
-  padding: 70px 0 12px 0;
+  padding: 20px 0 12px 0;
   text-align: center;
   font-size: 21px;
   border-bottom: 1px solid white;
@@ -206,12 +264,12 @@ nav a {
 }
 
 .third-section h3 {
-  font-size: 35px;
+  font-size: 30px;
   color: white;
 }
 
 .third-section .text-container p {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   width: 60%;
 }
@@ -219,4 +277,39 @@ nav a {
 .third-section .top-paragraph {
   margin: 17px 0;
 }
+
+.fourth-section .top-paragraph {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 145px;
+}
+
+.fourth-section .bottom-paragraph {
+  color: #FDD500;
+  font-size: 27px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.fourth-section .divider {
+  background-color: #FDD500;
+  padding: 0.8px 400px;
+  margin: 20px 0px;
+}
+
+.fifth-section ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  background-color: royalblue;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  height: 40px;
+}
+
+
 
